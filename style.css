@@ -113,6 +113,51 @@ header{
     padding: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+#titulo{
+    background-color: rgba(180, 182, 183, 0.507);
+    color: rgb(0, 0, 0);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#faixa {
+    width: 100%;
+    height: 8px;
+
+    background: repeating-linear-gradient(
+        45deg,
+        yellow,
+        yellow 20px,
+        orange 20px,
+        orange 40px
+    );
+}
+#button{
+    background-color: rgba(180, 182, 183, 0.507);
+    color: rgb(0, 0, 0);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.tabelass {
+    display: flex;      
+    width: 100%;  
+    color: black;      
+}
+.tabelass table {
+    width: 50%;         
+    border: 1px solid black;
+    color: black;
+}
+
 #direitos{
     background-color: rgba(239, 243, 245, 0.507);
     color: rgb(0, 0, 0);
