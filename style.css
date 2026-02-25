@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+#container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.caixinha, .caixinha5, .caixinha3 {
+  background-color: rgb(157, 219, 243);
+  color: white;
+  padding: 102px;
+  margin: 5px;
+  width: 1040px;
+  height: 50px;
+  border-radius: 10px;
+}
+.caixinha4, .caixinha2, .caixinha6 {
+  background-color: rgb(157, 219, 243);
+  color: white;
+  padding: 100px;
+  margin: 5px;
+  width: 430px;
+  height: 50px;
+  border-radius: 10px;
+}
+header{
+  display: flex;
+  flex-direction: column;
+}
+#direitos2{
+    background-color: rgb(157, 219, 243);
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#direitos{
+    background-color: rgba(239, 243, 245, 0.507);
+    color: rgb(0, 0, 0);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
